@@ -1,3 +1,3 @@
 # web-example
 
-# study
+study
