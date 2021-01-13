@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#Body {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Header{
+  font-size: 72pt;
+  text-align: center;
+}
+
+.list {
+  font-size: 30pt;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.p_a{
+  font-size: 19pt
+}
+
+a {
+  font-size: 25pt;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
