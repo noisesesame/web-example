@@ -1,3 +1,7 @@
 # web-example
 
-web coding study 
+Hello guys!
+
+This is my first Web Coding Project
+
+:3
