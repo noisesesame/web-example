@@ -1,35 +1,51 @@
 @charset "UTF-8";
 
-#Body {
-  font-style: normal;
-  font-weight: 500;
+#grid {
+  display: grid;
+  grid-template-columns: 170px 1fr;
 }
 
-.Header{
+.Header {
   font-size: 72pt;
   text-align: center;
+  border-bottom: 1px solid gray;
+  display: block;
+  padding: 30px;
+  margin:0px;
 }
 
 .list {
-  font-size: 30pt;
-  list-style-type: none;
-  padding: 0;
+  font-size: 26px;
+  font-weight: bolder;
+  padding-left: 42px;
+  padding-top: 22px;
+  margin: 0px;
+  border-right: 1px solid gray;
+  width: 150px;
+}
+
+.text {
+  padding-left: 46px;
+  padding-top: 10px;
   margin: 0;
 }
+
 .p_a{
-  font-size: 19pt
+  text-decoration: underline;
+  font-weight:bolder;
+}
+
+h2 {
+  padding: 0px;
+  margin: 12px;
+  margin-left: auto;
 }
 
 a {
-  font-size: 25pt;
   text-decoration: none;
 }
 
-a:link {
-  color: black;
-}
-
-a:visited {
+a:link, a:visited {
   color: black;
 }
 
